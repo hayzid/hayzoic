@@ -381,6 +381,7 @@ nav {
 @media (max-width: 991px){
   .about{
     height: auto;
+    
   }
   
 }
@@ -532,6 +533,7 @@ nav {
     
     .skills{
         height: auto;
+       
     }
 }
 
@@ -599,14 +601,15 @@ nav {
 @media (max-width: 991px){
   .services{
     height: auto;
+    
   }
 }
 
 
 /* Projects Section */
 .projects{
-    height:130vh;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
 .projects_head{
     width: 100%;
@@ -652,21 +655,22 @@ nav {
 @media (max-width: 991px){
   .projects{
     height: auto;
+    
   }
 }
 
 /*contact section*/
 .contact{
-  height: 130vh;
+  height: 110vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .wrapper{
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  max-width: 350px;
-  width: 100%;
+  height: 100vh;
+
+  width: 70%;
   background: #fff;
   padding: 25px;
   border-radius: 5px;
@@ -722,8 +726,13 @@ nav {
 }
 @media (max-width: 991px){
   .contact{
-    height: auto;
+    height: 100vh;
+    width: auto;
   }
+  .wrapper{
+    height: 90vh;
+  }
+  
 }
 /*top bar*/
 .to-top {
@@ -768,5 +777,10 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+}
+@media (max-width: 991px){
+  footer{
+    width: auto;
+  }
 }
 
